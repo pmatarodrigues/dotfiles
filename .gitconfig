@@ -1,0 +1,12 @@
+[user]
+	email = me@pmatarodrigues.com
+[credential]
+	helper = cache
+[alias]
+	co = checkout
+	br = branch
+	c = commit
+	s = status
+	unstage = reset HEAD --
+	last = log -1 HEAD
+	a = add

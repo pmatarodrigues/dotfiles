@@ -1,0 +1,42 @@
+#ALIAS
+#
+alias vim="nvim"
+alias nstall="sudo apt-get install"
+alias o="thunar ."
+cdl() { cd "$@" && ls; }
+
+alias dl="cd ~/Downloads/"
+alias doc="cd ~/Documents/"
+alias prj="cd ~/Projects/"
+alias tese="cd ~/MEI/TESE/"
+
+alias connect_hdmi1="xrandr --output DP1 --auto --above eDP1"
+alias connect_hdmi2="xrandr --output eDP1 --auto --above DP1"
+
+alias ls="colorls --sd"
+alias ll="colorls --sd"
+alias la="colorls --sd -A"
+
+alias fk="fuck"
+alias sff="sudo"
+alias c="clear"
+alias todo="vim ~/__todo"
+alias ctodo="clear && sed -e '/^#/d' ~/__todo"
+
+alias vvv="cd ~/VVV && vagrant up"
+alias dual-screen="xrandr --output eDP1 --auto --below DP1"
+
+# PROJECTS
+alias ss="cd ~/Projects/spread_science/"
+alias fe="cd ~/Projects/food_eat/"
+alias se="cd ~/Projects/shareat/"
+alias til="cd ~/Projects/TIL/"
+
+# DOCKER
+alias wp="docker-compose run --rm wordpress-cli"
+
+# GITHUB
+alias g="git"
+alias c="commit"
+alias s="status"
+alias p="push"

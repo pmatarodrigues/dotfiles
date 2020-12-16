@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../../MEI/PEI/teste/Spickles/DEV/BACKEND/spickles_backend/backend"
+		},
+		{
+			"path": "../../../MEI/PEI/Spickles/DEV/App"
+		},
+		{
+			"path": "../../../MEI/PEI/Spickles/DEV/ServerSockets"
+		}
+	],
+	"settings": {}
+}
